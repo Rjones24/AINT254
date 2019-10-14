@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 8960514074757170449}
   - component: {fileID: 8960514074757170450}
   - component: {fileID: 8960514074757170461}
-  m_Layer: 0
+  - component: {fileID: 2282827196565320081}
+  m_Layer: 8
   m_Name: Tounge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 8960514074757170451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 5}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -107,3 +108,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 0.75
   damage: 1
+--- !u!54 &2282827196565320081
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8960514074757170451}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 3
