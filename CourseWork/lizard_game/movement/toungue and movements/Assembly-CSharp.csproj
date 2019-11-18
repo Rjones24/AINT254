@@ -62,38 +62,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Camera_look.cs" />
-    <Compile Include="Assets\Scripts\Look_up.cs" />
+    <Compile Include="Assets\Scripts\Camera.cs" />
     <Compile Include="Assets\Scripts\movement.cs" />
     <Compile Include="Assets\Scripts\Tongue_Fire.cs" />
     <Compile Include="Assets\Scripts\Tounge_Mech.cs" />
     <Compile Include="Assets\Tounge.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/unity/AINT254/CourseWork/lizard_game/movement/toungue and movements/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/unity/lizard game/movement/toungue and movements/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/unity/AINT254/CourseWork/lizard_game/movement/toungue and movements/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/unity/lizard game/movement/toungue and movements/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/unity/AINT254/CourseWork/lizard_game/movement/toungue and movements/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/unity/lizard game/movement/toungue and movements/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/unity/AINT254/CourseWork/lizard_game/movement/toungue and movements/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/unity/lizard game/movement/toungue and movements/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/unity/AINT254/CourseWork/lizard_game/movement/toungue and movements/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/unity/lizard game/movement/toungue and movements/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/unity/AINT254/CourseWork/lizard_game/movement/toungue and movements/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/unity/lizard game/movement/toungue and movements/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/unity/AINT254/CourseWork/lizard_game/movement/toungue and movements/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/unity/lizard game/movement/toungue and movements/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/unity/AINT254/CourseWork/lizard_game/movement/toungue and movements/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/unity/lizard game/movement/toungue and movements/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/unity/AINT254/CourseWork/lizard_game/movement/toungue and movements/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/unity/lizard game/movement/toungue and movements/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

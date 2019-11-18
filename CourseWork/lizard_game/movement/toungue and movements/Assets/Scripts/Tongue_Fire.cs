@@ -37,7 +37,7 @@ public class Tongue_Fire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetAxisRaw("Fire1")>0)
+        if (Input.GetMouseButton(0))
         {
             if (!isFiring)
             {
