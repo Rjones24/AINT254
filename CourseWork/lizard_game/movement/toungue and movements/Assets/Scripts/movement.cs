@@ -44,13 +44,13 @@ public class movement : MonoBehaviour
 
         if (Sprint)
         {
-            transform.Translate(Horizintal * Time.deltaTime * 10, 0f, 0f);
-            transform.Translate(0f, 0f, Vertical * Time.deltaTime * 10);
+            transform.Translate(Horizintal * Time.deltaTime * 20, 0f, 0f);
+            transform.Translate(0f, 0f, Vertical * Time.deltaTime * 20);
         }
         else
         {
-            transform.Translate(Horizintal * Time.deltaTime*5, 0f, 0f);
-            transform.Translate(0f, 0f, Vertical * Time.deltaTime*5);
+            transform.Translate(Horizintal * Time.deltaTime*10, 0f, 0f);
+            transform.Translate(0f, 0f, Vertical * Time.deltaTime*10);
         }
     }
 

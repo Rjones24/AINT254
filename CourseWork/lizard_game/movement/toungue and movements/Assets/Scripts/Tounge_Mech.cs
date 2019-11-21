@@ -6,7 +6,7 @@ public class Tounge_Mech : MonoBehaviour
 {
     public float moveSpeed;
    
-    int Distance = 15;
+    int Distance = 20;
     int CurrentDistance = 0;
     bool HitLimit = false;
  
