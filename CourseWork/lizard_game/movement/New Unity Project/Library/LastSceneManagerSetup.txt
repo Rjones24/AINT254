@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Simple_Day_and_Night_Cycle/Scenes/Playable Scene (Alien).unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
