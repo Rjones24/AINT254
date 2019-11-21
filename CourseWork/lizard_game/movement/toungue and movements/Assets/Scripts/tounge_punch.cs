@@ -8,7 +8,6 @@ public class tounge_punch : MonoBehaviour
     public Transform Spawn;
     public float fireTime = 0.5f;
     private bool isFiring = false;
-    public int damage = 10;
 
     private void SetFiring()
     {
@@ -39,8 +38,5 @@ public class tounge_punch : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        collision.transform.SendMessage("TakeDamage", damage, SendMessageOptions.DontRequireReceiver);
-    }
+  
 }

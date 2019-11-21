@@ -8,7 +8,7 @@ public class Eaten : MonoBehaviour
         {
             Destroy(gameObject);
 
-            Debug.Log("collision detected!");
+            Debug.Log("nom nom nom");
         }
     }
 }

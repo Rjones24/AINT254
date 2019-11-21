@@ -49,4 +49,9 @@ public class punch_Mech : MonoBehaviour
         }
 
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        collision.transform.SendMessage("TakeDamage", damage, SendMessageOptions.DontRequireReceiver);
+    }
 }

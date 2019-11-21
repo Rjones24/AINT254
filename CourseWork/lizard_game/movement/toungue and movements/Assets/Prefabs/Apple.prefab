@@ -144,14 +144,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7408247259176683542}
     m_Modifications:
-    - target: {fileID: 104228, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
-      propertyPath: m_Name
-      value: Apple
-      objectReference: {fileID: 0}
-    - target: {fileID: 104228, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 453888, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0052924454
@@ -208,7 +200,20 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 104228, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
+      propertyPath: m_Name
+      value: Apple
+      objectReference: {fileID: 0}
+    - target: {fileID: 104228, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6457796, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6457796, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
 --- !u!4 &7408247259648254227 stripped
 Transform:
