@@ -5,8 +5,8 @@ using UnityEngine;
 public class Tounge_Mech : MonoBehaviour
 {
     public float moveSpeed;
-    public int damage;
-    int Distance = 30;
+   
+    int Distance = 15;
     int CurrentDistance = 0;
     bool HitLimit = false;
  
@@ -17,13 +17,6 @@ public class Tounge_Mech : MonoBehaviour
 
     }
 
-
-    private void OnBecameInvisible()
-    {
-        Die();
-    }
-
-
     private void Die()
     {
         Destroy(gameObject);
@@ -32,9 +25,7 @@ public class Tounge_Mech : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-       
-
+        
         if (HitLimit == false)
         {
             transform.Translate(0f, 0f, moveSpeed);
@@ -46,7 +37,7 @@ public class Tounge_Mech : MonoBehaviour
             CurrentDistance -= 1;
         }
 
- if (CurrentDistance > Distance)
+    if (CurrentDistance > Distance)
         {
             
             HitLimit = true;
@@ -56,5 +47,15 @@ public class Tounge_Mech : MonoBehaviour
             Die();
         }
       
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.GetComponent<Rigidbody>() != null)
+        {
+           
+                HitLimit = true;
+        }
+        
     }
 }
