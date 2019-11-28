@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/main_Game.unity
+- path: Assets/Scenes/winner.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
