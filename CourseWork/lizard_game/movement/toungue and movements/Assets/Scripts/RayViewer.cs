@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-public class RayViewerComplete : MonoBehaviour {
+public class RayViewer : MonoBehaviour {
 
     public float weaponRange = 50f;                      
 
