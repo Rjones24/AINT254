@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd8fe088044d47a449251f60d7166cf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabToSpawn: {fileID: 1086082918331212486, guid: 8fbfd53eca474a044adddaeeb09aa23f,
+  prefabToSpawn: {fileID: 9011276820505618857, guid: 936f74be9bc62cc4484f67cfe19de669,
     type: 3}
   adjustmentAngle: 0
 --- !u!114 &7408247259176683539
@@ -147,14 +147,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7408247259176683542}
     m_Modifications:
-    - target: {fileID: 104228, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
-      propertyPath: m_Name
-      value: Apple
-      objectReference: {fileID: 0}
-    - target: {fileID: 104228, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 453888, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0052924454
@@ -210,6 +202,14 @@ PrefabInstance:
     - target: {fileID: 453888, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
       propertyPath: m_LocalScale.z
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 104228, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
+      propertyPath: m_Name
+      value: Apple
+      objectReference: {fileID: 0}
+    - target: {fileID: 104228, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6457796, guid: 6e2e5a60179bbe147bb39ecf08436cee, type: 3}
       propertyPath: m_Convex

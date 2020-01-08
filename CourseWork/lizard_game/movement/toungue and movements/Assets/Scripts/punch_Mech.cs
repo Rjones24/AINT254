@@ -43,7 +43,7 @@ public class punch_Mech : MonoBehaviour
 
             HitLimit = true;
         }
-        else if (CurrentDistance == 0)
+        else if (CurrentDistance == -2)
         {
             Die();
         }

@@ -67,7 +67,9 @@
     <Compile Include="Assets\Scripts\Burn.cs" />
     <Compile Include="Assets\Scripts\Camera_look.cs" />
     <Compile Include="Assets\Scripts\Death.cs" />
+    <Compile Include="Assets\Scripts\disapearOverTime.cs" />
     <Compile Include="Assets\Scripts\Eaten.cs" />
+    <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\fireingWithRaycast.cs" />
     <Compile Include="Assets\Scripts\GameManagment.cs" />
     <Compile Include="Assets\Scripts\GameUI.cs" />
@@ -76,7 +78,6 @@
     <Compile Include="Assets\Scripts\Look_up.cs" />
     <Compile Include="Assets\Scripts\movement.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\Points.cs" />
     <Compile Include="Assets\Scripts\punch_Mech.cs" />
     <Compile Include="Assets\Scripts\RayViewer.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />

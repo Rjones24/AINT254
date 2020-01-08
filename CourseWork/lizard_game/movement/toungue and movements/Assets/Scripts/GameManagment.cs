@@ -21,6 +21,6 @@ public class GameManagment : MonoBehaviour
 
     public void GameOver()
     {
-        SceneManager.LoadScene("Main_Menu", LoadSceneMode.Single);
+        SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
     }
 }
