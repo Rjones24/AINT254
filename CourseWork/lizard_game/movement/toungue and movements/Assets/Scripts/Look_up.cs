@@ -17,6 +17,6 @@ public class Look_up : MonoBehaviour
     {
         float LookVertical = Input.GetAxisRaw("Controller Y");
 
-        transform.Rotate(-LookVertical / 6, 0f, 0f, Space.Self);
+        transform.Rotate(-LookVertical / 12, 0f, 0f, Space.Self);
     }
 }

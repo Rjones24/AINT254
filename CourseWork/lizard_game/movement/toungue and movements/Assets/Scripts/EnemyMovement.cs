@@ -51,7 +51,7 @@ public class EnemyMovement : MonoBehaviour
         if (playerClose)
         {
             Vector3 newposition = new Vector3(Target.position.x, transform.position.y, Target.position.z);
-            transform.position = Vector3.Lerp(transform.position, newposition, (smoothing * 0.001f));
+            transform.position = Vector3.Lerp(transform.position, newposition, (smoothing * 0.005f));
         }
     }
 }

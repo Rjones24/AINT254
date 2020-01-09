@@ -3,7 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class GameManagment : MonoBehaviour
 {
- 
+    public static bool won = false;
+    private void Update()
+    {
+        if (won)
+        {
+            SceneManager.LoadScene("winner", LoadSceneMode.Single);
+        }
+    }
+
     public void StartGame()
     {
         SceneManager.LoadScene("main_Game", LoadSceneMode.Single);
@@ -23,4 +31,5 @@ public class GameManagment : MonoBehaviour
     {
         SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
     }
+
 }

@@ -5,9 +5,9 @@ using UnityEngine;
 public class Hit_trigger : MonoBehaviour
 {
     public int damage;
-    public float resetTime = 0.25f;
+    public float resetTime = 1.0f;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter(Collider collision)
     {
         collision.transform.SendMessage("TakeDamage", damage, SendMessageOptions.DontRequireReceiver);
         GetComponent<Collider>().enabled = false;

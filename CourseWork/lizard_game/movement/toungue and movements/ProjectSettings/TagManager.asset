@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Mouth
+  - death
   layers:
   - Default
   - TransparentFX
