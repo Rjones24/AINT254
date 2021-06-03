@@ -52,6 +52,7 @@ public class punch_Mech : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        HitLimit = true;
         collision.transform.SendMessage("TakeDamage", damage, SendMessageOptions.DontRequireReceiver);
     }
 }

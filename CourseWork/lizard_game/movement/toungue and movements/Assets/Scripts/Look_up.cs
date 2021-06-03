@@ -5,7 +5,7 @@ using UnityEngine;
 public class Look_up : MonoBehaviour
 {
 
-
+    float clamp;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,8 +15,10 @@ public class Look_up : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float LookVertical = Input.GetAxisRaw("Controller Y");
+        float LookVertical = -Input.GetAxisRaw("Controller Y") / 12;
+        clamp += LookVertical;
+        clamp = Mathf.Clamp(clamp, -15.0f, 5.0f);
 
-        transform.Rotate(-LookVertical / 12, 0f, 0f, Space.Self);
+        transform.localRotation = Quaternion.Euler(clamp, 0.0f, 0.0f);
     }
 }

@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class tounge_fire : MonoBehaviour
 {
     public GameObject Tongue;
@@ -15,13 +14,11 @@ public class tounge_fire : MonoBehaviour
     {
         isFiring = false;
     }
-
     private void Punch()
     {
         isFiring = true;
         sound.GetComponent<AudioSource>().Play();
         Instantiate(punchTounge, Spawn.position, Spawn.rotation);
-
 
         Invoke("SetFiring", fireTime);
     }
@@ -31,28 +28,21 @@ public class tounge_fire : MonoBehaviour
         sound.GetComponent<AudioSource>().Play();
         Instantiate(Tongue, Spawn.position, Spawn.rotation);
 
-
         Invoke("SetFiring", fireTime);
     }
 
     void Update()
     {
-        if (Input.GetAxisRaw("Fire1") > 0)
+        if (!isFiring)
         {
-           
-            if (!isFiring)
+            if (Input.GetAxisRaw("Fire1") > 0)
             {
                 sticky();
-               
-}
-        }
-        else if (Input.GetAxisRaw("Fire2") > 0)
-        {
-           if (!isFiring)
-           {
-               Punch();
-           }
-        }
-        
+            }
+            else if (Input.GetAxisRaw("Fire2") > 0)
+            {
+                Punch();
+            }
+        } 
     }
 }
